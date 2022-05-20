@@ -1,0 +1,7 @@
+login:
+   user: ENC(bNY+lOQoXEqcYeuS8ZtV4fpUEdbgqk0ZvmwLNMGh6AU1IOLVj+YoQSyhr6P1QI5W)
+   pass: ENC(17LAAEA3YUrGmFUGMyTjvZr0cFYjovoAgOkxJfl/BTuAqsApElMUy00gylol9p+y)
+   
+jasypt:
+   encryptor:
+      password: qwerty

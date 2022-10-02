@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>es.berzal.karate</groupId>
+  <artifactId>karate-poc</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+  	<karate-apache.version>0.9.6</karate-apache.version>
+  	<karate-core.version>1.2.0</karate-core.version>
+  	<karate-junit.version>1.2.0</karate-junit.version>
+  	<maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+  </properties>
+  
+  <dependencies>
+
+	<dependency>
+	    <groupId>com.intuit.karate</groupId>
+	    <artifactId>karate-core</artifactId>
+	    <version>${karate-core.version}</version>
+	</dependency>
+
+	<dependency>
+	    <groupId>com.intuit.karate</groupId>
+	    <artifactId>karate-apache</artifactId>
+	    <version>${karate-apache.version}</version>
+	    <scope>test</scope>
+	</dependency>
+		
+	<!-- https://mvnrepository.com/artifact/com.intuit.karate/karate-junit5 -->
+	<dependency>
+	    <groupId>com.intuit.karate</groupId>
+	    <artifactId>karate-junit5</artifactId>
+	    <version>${karate-core.version}</version>
+	</dependency>
+		
+
+  </dependencies>
+  
+</project>
